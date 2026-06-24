@@ -94,8 +94,6 @@ if uploaded_file is not None:
         st.info(rec)
 
 
-    st.progress(face_score / 100)
-    st.progress(fingerprint_score / 100)
-    st.progress(iris_score / 100)
+    
 
 
